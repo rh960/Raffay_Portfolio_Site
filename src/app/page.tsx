@@ -17,7 +17,7 @@ export default function Home() {
   if (splash) return <SplashScreen onDone={onDone} />;
 
   return (
-    <main style={{ background: "#0D1117", minHeight: "100vh", overflowX: "hidden" }}>
+    <main style={{ background: "#F0F4F8", minHeight: "100vh", overflowX: "hidden" }}>
       <AnimatedBackground />
       <Nav />
       <Hero />
@@ -28,10 +28,10 @@ export default function Home() {
       <Contact />
       <footer style={{
         position: "relative", zIndex: 1,
-        borderTop: "1px solid rgba(255,255,255,0.10)",
+        borderTop: "1px solid rgba(15,23,42,0.1)",
         padding: "22px 24px", textAlign: "center",
         fontFamily: "monospace", fontSize: 9,
-        color: "rgba(240,246,252,0.38)", letterSpacing: 4,
+        color: "#94A3B8", letterSpacing: 4,
         textTransform: "uppercase",
       }}>
         Raffay Hassan · London · 2026
